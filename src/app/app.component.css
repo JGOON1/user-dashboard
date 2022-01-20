@@ -1,0 +1,54 @@
+.example-card {
+    max-width: 100%;
+    background-color: plum;
+    margin-top: 95px;
+   
+}
+
+
+
+.main-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.invest-card {
+    max-width: 400px;
+}
+
+.card-content {
+    text-align: center;
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+
+}
+
+.menu-spacer {
+    flex: 1 1 auto;
+}
+
+.nav {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.mat-button {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.mat-button:hover {
+    color: red;
+}
+
+.nav h1 {
+    user-select: none;
+}
